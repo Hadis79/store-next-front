@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Header from '../components/commen/Header'
+import Navbar from '../components/commen/Navbar'
 
 export default function Home() {
   return (
@@ -9,9 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-    </h1>
+      {/* header */}
+<Header/>
+      {/* navbar */}
+<Navbar/>
+      {/* result */}
     
     </div>
   )
